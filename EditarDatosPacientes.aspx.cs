@@ -10,8 +10,7 @@ using System.Web.UI.WebControls;
 namespace Proyecto_Final_Progra
 {
     public partial class About : Page
-    {
-        static List<Paciente> pacientesTemp = new List<Paciente>();
+    {       
         static List<ListaPacientes> Listadopacientes = new List<ListaPacientes>();
         static string encontrarDpi;
         protected void Page_Load(object sender, EventArgs e)
