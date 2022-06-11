@@ -105,6 +105,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="AgregarMedicamiento.aspx" />
     <Content Include="EditarDatosPacientes.aspx" />
     <Content Include="CrearNuevaCita.aspx" />
     <Content Include="Content\bootstrap-theme.css" />
@@ -113,6 +114,7 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\Site.css" />
     <Content Include="Default.aspx" />
+    <Content Include="EditarMedicamento.aspx" />
     <Content Include="EliminarCita.aspx" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
@@ -163,6 +165,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Agenda.cs" />
+    <Compile Include="AgregarMedicamiento.aspx.cs">
+      <DependentUpon>AgregarMedicamiento.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AgregarMedicamiento.aspx.designer.cs">
+      <DependentUpon>AgregarMedicamiento.aspx</DependentUpon>
+    </Compile>
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="EditarDatosPacientes.aspx.cs">
       <DependentUpon>EditarDatosPacientes.aspx</DependentUpon>
@@ -185,6 +194,13 @@
     </Compile>
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EditarMedicamento.aspx.cs">
+      <DependentUpon>EditarMedicamento.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EditarMedicamento.aspx.designer.cs">
+      <DependentUpon>EditarMedicamento.aspx</DependentUpon>
     </Compile>
     <Compile Include="EliminarCita.aspx.cs">
       <DependentUpon>EliminarCita.aspx</DependentUpon>

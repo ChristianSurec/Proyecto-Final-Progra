@@ -55,6 +55,8 @@
                         <li><a runat="server" href="~/EditarDatosPacientes">Editar Datos de Paciente</a></li>
                         <li><a runat="server" href="~/CrearNuevaCita">Crear Nueva Cita</a></li>
                         <li><a runat="server" href="~/EliminarCita">Eliminar Cita</a></li>
+                        <li><a runat="server" href="~/AgregarMedicamiento">Agregar Medicamiento</a></li>
+                        <li><a runat="server" href="~/EditarMedicamento">Editar Medicamento</a></li>
                     </ul>
                 </div>
             </div>
