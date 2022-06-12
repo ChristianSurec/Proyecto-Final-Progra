@@ -57,6 +57,8 @@
                         <li><a runat="server" href="~/EliminarCita">Eliminar Cita</a></li>
                         <li><a runat="server" href="~/AgregarMedicamiento">Agregar Medicamiento</a></li>
                         <li><a runat="server" href="~/EditarMedicamento">Editar Medicamento</a></li>
+                        <li><a runat="server" href="~/LogOut">Cerrar Cesion</a></li>
+                        
                     </ul>
                 </div>
             </div>

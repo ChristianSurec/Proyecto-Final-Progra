@@ -1,7 +1,8 @@
 ﻿<%@ Page Title="Contact" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="CrearNuevaCita.aspx.cs" Inherits="Proyecto_Final_Progra.Contact" %>
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
-    <h2><%: Title %>Agendar Nueva Cita</h2>
+    <h2><%: Title %></h2>
+    <h2>Agendar Nueva Cita</h2>
     <h3>&nbsp;</h3>
     <address>
         DPI Paciente<asp:TextBox ID="TextBoxBuscarDPI" runat="server"></asp:TextBox>

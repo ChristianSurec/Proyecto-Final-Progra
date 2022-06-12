@@ -1,5 +1,6 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="EditarMedicamento.aspx.cs" Inherits="Proyecto_Final_Progra.EditarMedicamento" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
+    <h1>&nbsp;</h1>
     <h1>Editar Medicamento</h1>
     <p>
         &nbsp;</p>

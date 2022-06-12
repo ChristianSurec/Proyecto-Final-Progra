@@ -3,6 +3,7 @@
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
 
     <div class="jumbotron">
+        <h1>&nbsp;</h1>
         <h1>Agregar Paciente</h1>
     </div>
 

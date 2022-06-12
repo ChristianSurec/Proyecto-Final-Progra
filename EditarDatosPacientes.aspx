@@ -1,7 +1,8 @@
 ﻿<%@ Page Title="About" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="EditarDatosPacientes.aspx.cs" Inherits="Proyecto_Final_Progra.About" %>
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
-    <h2><%: Title %>Editar Datos de Paciente</h2>
+    <h2><%: Title %></h2>
+    <h2>Editar Datos de Paciente</h2>
     &nbsp;DPI del Paciente<asp:TextBox ID="TextBoxEditarDPI" runat="server"></asp:TextBox>
     <br />
     <asp:Button ID="ButtonBuscarPaciente" runat="server" Height="48px" OnClick="ButtonBuscarPaciente_Click" Text="Buscar Paciente" Width="141px" />
