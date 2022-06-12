@@ -1,1 +1,1 @@
-[{"listadoPacientes":null,"listaAgenda":[]},{"listadoPacientes":null,"listaAgenda":[]},{"listadoPacientes":null,"listaAgenda":[]},{"listadoPacientes":null,"listaAgenda":[]},{"listadoPacientes":null,"listaAgenda":[]}]
+[{"listadoPacientes":null,"listaAgenda":[{"DPIPaciente":"2","fecha":"2022-06-12T00:00:00","horaInicio":"9:00 AM","horaFin":"9:30 AM"}],"listaMedicamientos":null},{"listadoPacientes":null,"listaAgenda":[{"DPIPaciente":"2","fecha":"2022-06-12T00:00:00","horaInicio":"9:00 AM","horaFin":"9:30 AM"}],"listaMedicamientos":null}]

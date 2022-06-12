@@ -43,7 +43,11 @@ namespace Proyecto_Final_Progra
             listaMedicamento.listaMedicamientos = medicamentos.ToArray().ToList();
             guardarMedicamentos.Add(listaMedicamento);
             GuardarMedicamento();
-
+            GridViewListadoEnfermedades.DataSource = null;
+            TextBoxIDMedicamento.Text = "";
+            TextBoxIngredienteMedicamento.Text = "";
+            TextBoxMarcaComercial.Text = "";
+            enfermedadTemp.Clear();
         }
 
         protected void ButtonAgregarTemp_Click(object sender, EventArgs e)
@@ -51,9 +55,11 @@ namespace Proyecto_Final_Progra
             Medicamento enfermedad = new Medicamento();           
             enfermedad.enfermedadesAplica = TextBoxListadoEnfermedadTemp.Text;
             enfermedadTemp.Add(enfermedad);
+            
 
             GridViewListadoEnfermedades.DataSource = enfermedadTemp;
             GridViewListadoEnfermedades.DataBind();
+            
         }
     }
 }
